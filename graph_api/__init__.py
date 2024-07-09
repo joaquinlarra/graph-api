@@ -2,6 +2,7 @@ from .graph import Graph, DiGraph
 from .traversal import bfs, dfs
 from .pathfinding import dijkstra, shortest_path
 from .topological import topological_sort
+from .io import to_dict, from_dict
 from .exceptions import GraphError, NodeNotFoundError, CycleDetectedError
 
 __version__ = "0.3.0"
@@ -13,6 +14,8 @@ __all__ = [
     "dijkstra",
     "shortest_path",
     "topological_sort",
+    "to_dict",
+    "from_dict",
     "GraphError",
     "NodeNotFoundError",
     "CycleDetectedError",
